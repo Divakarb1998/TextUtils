@@ -44,7 +44,7 @@ function App() {
   return (
     <>
   
-      <Navbar title="TextUtils" aboutText="About The App" mode={mode} toggleMode={toggleMode} />
+      <Navbar title="DivakarUtils" aboutText="About The App" mode={mode} toggleMode={toggleMode} />
        <Alert alert={alert} />
       <div className="container my-3">
         <TextForm showAlert={showAlert} heading="Enter Your Text To Analyze" mode={mode} />    
